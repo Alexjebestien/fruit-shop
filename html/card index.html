@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Shopping Cart</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/css/cartstyle.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	
+  
+  </head>
+  <body>
+ <header class="intro">
+ 
+
+ <!-- <div class="action">
+ <a href="https://www.codehim.com/html5-css3/javascript-shopping-cart-with-total-price/" title="Back to download and tutorial page" class="btn back">Back to Tutorial</a>
+ </div>
+ </header> -->
+  
+      
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+ <div class="container">
+  <div class="screen-togo">
+    <h2>To Go Menu</h2>
+    <ul class="menu-items">
+      <!--    Menu Item 1    -->
+      <li class="menu-item">
+        <img src="/images/amla-removebg-preview.png" alt="amla" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">Amla</p>
+          <p class="g-price"> ₹100</p>
+        </div>
+        <button
+          class="add-button"
+          data-title="amla"
+          data-price="100">Add to Cart</button>
+      </li>
+      <!--    Menu Item 2    -->
+      <li class="menu-item">
+        <img src="/images/Cauliflower-removebg-preview.png" alt="Cauliflower" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">Cauliflower</p>
+          <p class="g-price"> ₹50</p>
+        </div>
+        <button
+          class="add-button"
+          data-title="cauliflower"
+          data-price="50">Add to Cart</button>
+      </li>
+      <!--    Menu Item 3    -->
+      <li class="menu-item">
+        <img src="/images/grapes-removebg-preview.png" alt="grapes" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">Grapes</p>
+          <p class="g-price"> ₹120</p>
+        </div>
+        <button
+          class="add-button"
+          data-title="grapes"
+          data-price="120">Add to Cart</button>
+      </li>
+      <!--    Menu Item 4    -->
+      <li class="menu-item">
+        <img src="/images/dryfruit1-removebg-preview.png" alt="dryfruits" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">dryfruits</p>
+          <p class="g-price"> ₹280</p>
+        </div>
+        <button 
+          class="add-button"
+          data-title="dryfruits"
+          data-price="280"
+          >Add to Cart</button>
+      </li>
+      <!--    Menu Item 5    -->
+      <li class="menu-item">
+        <img src="/images/mango-removebg-preview.png" alt="mango" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">Mango</p>
+          <p class="g-price"> ₹80</p>
+        </div>
+        <button
+          class="add-button"
+          data-title="Mango"
+          data-price="80">Add to Cart</button>
+      </li>
+      <!--    Menu Item 6    -->
+      <li class="menu-item">
+        <img src="/images/garlic1.png" alt="garlic" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">garlic</p>
+          <p class="g-price"> ₹100</p>
+        </div>
+        <button 
+          class="add-button"
+          data-title="garlic"
+          data-price="100"
+          >Add to Cart</button>
+      </li>
+      <!--    Menu Item 7   -->
+      <li class="menu-item">
+        <img src="/images/potato1.png" alt="potato" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">potato</p>
+          <p class="g-price"> ₹55</p>
+        </div>
+        <button 
+          class="add-button"
+          data-title="potato"
+          data-price="55"
+          >Add to Cart</button>
+      </li>
+      <!--    Menu Item 8    -->
+      <li class="menu-item">
+        <img src="/images/tomato1.png" alt="tomato" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">tomato</p>
+          <p class="g-price"> ₹26</p>
+        </div>
+        <button 
+          class="add-button"
+          data-title="tomato"
+          data-price="26"
+          >Add to Cart</button>
+      </li>
+      <!--    Menu Item 9    -->
+      <li class="menu-item">
+        <img src="/images/apple1.png" alt="apple" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">apple</p>
+          <p class="g-price"> ₹240</p>
+        </div>
+        <button 
+          class="add-button"
+          data-title="apple"
+          data-price="240"
+          >Add to Cart</button>
+      </li>
+      <!--    Menu Item 11   -->
+      <li class="menu-item">
+        <img src="/images/watermelon-removebg-preview.png" alt="watermelon" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">watermelon</p>
+          <p class="g-price"> ₹22</p>
+        </div>
+        <button 
+          class="add-button"
+          data-title="watermelon"
+          data-price="22"
+          >Add to Cart</button>
+      </li>
+      <!--    Menu Item 12   -->
+      <li class="menu-item">
+        <img src="/images/small_pack-removebg-preview.png" alt="smallpack" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">smallpack</p>
+          <p class="g-price"> ₹250</p>
+        </div>
+        <button 
+          class="add-button"
+          data-title="smallpack"
+          data-price="250"
+          >Add to Cart</button>
+      </li>
+      <!--    Menu Item 13   -->
+      <li class="menu-item">
+        <img src="/images/medium_pack-removebg-preview.png" alt="mediumpack" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">mediumpack</p>
+          <p class="g-price"> ₹400</p>
+        </div>
+        <button 
+          class="add-button"
+          data-title="mediumpack"
+          data-price="400"
+          >Add to Cart</button>
+      </li>
+      <!--    Menu Item 13   -->
+      <li class="menu-item">
+        <img src="/images/mega_pack-removebg-preview.png" alt="megapack" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">megapack</p>
+          <p class="g-price"> ₹500</p>
+        </div>
+        <button 
+          class="add-button"
+          data-title="megapack"
+          data-price="500"
+          >Add to Cart</button>
+      </li>
+    </ul>
+  </div>
+  <div class="screen-cart">
+    <h2>Your Cart</h2>
+    <!--  Cart Items -->
+    <ul class="cart-items">
+    </ul>
+    
+    <div class="cart-math">
+      <p>Add items to cart</p>
+    </div>
+    <div    >
+      <button class="purchase" onclick="cartpurchase()">purchase</button>
+    </div>
+  </div>
+</div> 
+
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+  
+<!-- jQuery -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+      
+<!-- Shopping Cart Js -->
+<script src="/js/script.js"></script>     
+      
+  </body>
+</html>
